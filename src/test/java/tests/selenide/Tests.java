@@ -16,15 +16,15 @@ import static pages.selenide.YandexMarketMainPage.openSite;
  */
 public class Tests extends BaseTests{
     /**
-     * Метод для запуска теста "Проверка сайта ЯндексМаркет"
+     * Метод для запуска теста "Проверка категории Смартфоны"
      *
      * @author Горячев Роман Юрьевич
-     * @param catalogueSection наименование раздела каталога
-     * @param category наименование категории
+     * @param catalogueSection раздел каталога
+     * @param category категория
      * @param producer производитель
      */
-    @Feature(("Проверка сайта ЯндексМаркет"))
-    @DisplayName("Проверка результатов поиска на сайте ЯндексМаркет")
+    @Feature(("Проверка сайт ЯндексМаркет"))
+    @DisplayName("Проверка категории Смартфоны")
     @ParameterizedTest(name = "{displayName} c параметрами: {arguments}")
     @MethodSource("helpers.DataProvider#provideTestYandexMarket")
     public void testYandexMarket(String catalogueSection, String category, String producer){

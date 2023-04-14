@@ -2,7 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/helpers/tests.properties" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/tests/selenide/BaseTests.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/tests/selenide/Tests.java" charset="UTF-8" />
   </component>
 </project>

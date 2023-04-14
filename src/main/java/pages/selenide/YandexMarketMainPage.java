@@ -65,8 +65,3 @@ public class YandexMarketMainPage extends BasePage{
 
 
 }
-
-
-
-
-//li[@data-zone-name='category-link']//span[translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ','abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя')='электроника']
